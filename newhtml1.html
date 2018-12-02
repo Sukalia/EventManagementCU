@@ -1,0 +1,40 @@
+<html>package controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class signup extends HttpServlet {
+
+  
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        PrintWriter out = response.getWriter();
+        String FirstName = request.getParameter("txtfname");
+        String LastName = request.getParameter("txtlname");
+        String Password = request.getParameter("txtpass");
+        String Mobileno = request.getParameter("txtmobile");
+        String Email = request.getParameter("txtmail");
+        String Address = request.getParameter("txtadd");
+        String dateofbirth = request.getParameter("dob");
+        out.println(FirstName+"<br/>");
+        out.println(LastName+"<br/>");
+        out.println(Password+"<br/>");
+        out.println(Mobileno+"<br/>");
+        out.println(Email+"<br/>");
+        out.println(Address+"<br/>");
+        out.println(dateofbirth);
+        }
+     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws
+            ServletException, IOException {
+        processRequest(req, res);
+    }
+    }
+
+   
+</html>

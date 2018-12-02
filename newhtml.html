@@ -1,0 +1,1690 @@
+
+<script>console.log("Connection Successful")</script><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=-1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Zones - Algorythm'18 | Chitkara University</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/algo_logo.png" />
+    
+    <link rel="stylesheet" type="text/css" href="css2/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="css2/animate.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Libre+Baskerville" rel="stylesheet">
+      
+    <link rel="stylesheet" href="./zones/bootstrap.min.css">
+  <link rel="stylesheet" href="./zones/style.css" type="text/css">
+  <link rel="stylesheet" href="./zones/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./zones/campus.css">
+  <!------------------------------------------------------------------------------------------------------->
+  <link href="./zones/main.css" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="./zones/demo.css">
+  <link type="text/css" rel="stylesheet" href="./zones/style-gp.css">
+
+    <link rel="stylesheet" type="text/css" href="css2/zones.css">
+    <script src="https://use.fontawesome.com/c10c846e1a.js"></script>
+   
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+
+  <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>  
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css2/bower.min.css">
+
+  <script type="text/javascript" src="js2/bower.min.js"></script> 
+  <script type="text/javascript" src="js2/scrollfire.js"></script>
+  <script src="js/countdown.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css2/blueimp-gallery.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css2/animate.min.css">
+
+  <style type="text/css">
+/* Wrapper */
+html{
+  overflow-x: hidden;
+  width: 100%;  
+}
+body{
+  background: #333;
+}
+.icon-button {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.0rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  margin: 0;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+}
+.youtube span {
+  background-color: #b31217;
+}
+.facebook span {
+  background-color: #3B5998;
+}
+.instagram span {
+  background-color:   #8B4513;
+}
+.social-icon{
+  position: absolute;
+  z-index: 9999;
+  bottom: 0px;
+  right: 0px;
+}
+/* Icons */
+.icon-button i {
+  background: none;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+.icon-button i:hover{
+  color: #fff;
+}
+.icon-button .youtube-play{
+  color: #b31217;
+}
+.icon-button .facebook {
+  color: #3B5998;
+}
+.icon-button .instagram{
+  color:  #8B4513;
+}
+    .team-email {
+        padding-top: 1vh;
+    }
+
+    .arrow {
+      margin-right: 40px;
+    }
+    .badge{
+     position:relative;
+     top: -29px;
+         left: 50px;
+         background-color: rgba(51,122,183,.75);
+     }
+     .overlay:before{
+      position: absolute;
+      content:" ";
+      top:0;
+      left:0;
+      padding: 0;
+      margin: 0;
+      min-width:100%;
+      height:100%;
+      display: block;
+      z-index:0;
+      background-color: rgba(0,0,0,0.4);
+    }
+   .navbar-brand{
+        width: 150px;
+        padding: 30px 15px;
+    }
+    .navbar-brand>img {
+        height: 100%;       
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: -200px;
+        object-fit: cover;
+        padding: 0px;
+    }
+    .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      
+  }
+  .modal-content{
+  padding-bottom: 1000px;
+  margin-bottom: -1000px;
+  height: auto;
+  overflow-y: hidden;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  background:rgba(0,0,0,0.6);
+}
+
+    @media screen and (max-width: 535px) {
+      #testimonials {
+        min-height: 900px;
+      
+      }
+      .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+        font-size: 12px;
+      }
+      .title{
+        font-size :50px;
+      }
+      #theme{
+        font-size: 50px;
+      }
+    }
+
+    #footer {
+      background: #211e1e;
+      padding: 30px 0px;  
+      padding-bottom: 100px;    
+    }
+    @media screen and (max-width: 395px) and (min-width: 345px) {
+      #footer_text h1 {
+        font-size: 50px;
+      }
+      .title{
+        font-size :60px;
+      }
+      #theme{
+        font-size: 60px;
+      }
+
+    }
+  
+    @media only screen and (min-width:320px) and (max-width:768px){
+      .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+        font-size: 12px;
+      }
+      .title{
+        font-size :30px;
+      }
+      #theme{
+        font-size: 30px;
+      }
+
+    }
+
+    @media screen and (max-width: 767px) {
+          .nav li {
+            background-color: rgba(0,0,0,0.7);
+            width: 100%;
+
+          }
+          .navbar-left {
+            margin-bottom: 0px;
+          }
+          .navbar-right {
+            margin-top: 0px;
+          }
+          #vd-content {
+            padding-top: 40px;
+          }
+          .badge{
+         position:relative;
+         top: 0px;
+           left: 0px;
+           background-color: rgba(51,122,183,.75);
+        }
+        .title{
+          font-size :50px;
+        }
+        #theme{
+          font-size: 40px;
+        }
+        .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+        font-size: 15px;
+        }
+        #loader_sf,#loader_iit{
+          width:90px;
+        }
+      }
+    #home h4{
+      text-align: center;
+      color: white;
+      font-family: Neucha;
+      font-size: 27px;
+      padding-top: 4px;
+      margin-bottom:5px;
+    }
+    #home h3{
+      text-align: center;
+      color: white;
+      font-family: Neucha;
+      font-size: 22px;
+      margin-top: 5px;
+      padding-top: 4px;
+      
+    }
+    #loader_iit{
+      width:90px;
+      height: 80px;
+    }
+    .testimonial-content p{
+      /*font-size: 30px;*/
+    }
+    .second_div{
+          background-color: rgb(171, 30, 30);
+    }
+    .third_div{
+      background: rgba(255,255,255,0.1);
+    }
+    
+    .footer_overlay{
+            background:rgba(0,0,0,0.8);
+            }
+      
+     .logo{
+      width: 105px;
+      height: 100px;
+     }
+
+     .theme{
+      font-family: 'Sacramento';
+     }
+     .testimonial-content p{
+      font-size: 25px;
+     }
+     
+      
+      
+      .countdown {
+        font-family: 'Roboto';
+        text-transform: uppercase;
+      }
+      
+      .countdown > div { display: inline-block; }
+      
+      .countdown > div > span {
+        display: block;
+        text-align: center;
+      }
+      
+      .countdown-container { margin: 0 3px; }
+      
+      .countdown-container .countdown-heading {
+        font-size: 11px;
+        margin: 3px;
+        color: #fff;
+      }
+      
+      .countdown-container .countdown-value {
+        font-size: 50px;
+        background: #000;
+        padding: 10px;
+        color: #fff;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.4)
+      }
+      .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+        padding: 20px 15px;
+      }
+      .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text a{
+        font-family: monospace;
+      }
+    .dropdown-menu{
+        padding: 0px;
+        background-color: black !important;
+      }
+      /*algo animation*/
+      .typewriter h1 {
+      color: #fff;      
+      font-family: fantasy,monospace,sans-serif;
+      overflow: hidden; 
+      border-right: .15em solid orange; 
+      white-space: nowrap;
+      margin: 0 auto; 
+      font-size: 60px;
+      letter-spacing: .15em; 
+      text-transform: uppercase;
+      animation: 
+        typing 4.5s 0.5s steps(30, end),
+        blink-caret .5s step-end 3s,
+        cursor 2.5s 0.5s forwards;
+    }
+    .typewriter h3 {
+      color: #fff;
+      font-family: monospace;
+      overflow: hidden; 
+      border-right: .15em solid orange; 
+      white-space: nowrap;
+      margin: 0 auto; 
+      letter-spacing: .15em; 
+      text-transform: uppercase;
+      animation: 
+        typing 4.5s 0.5s steps(30, end),
+        blink-caret .5s step-end 3s,
+        cursor 2.5s 0.5s forwards;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes cursor{
+       from{border-right: .15em solid orange }
+      to{border-right: 0em solid orange }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange }
+    }
+      /*my css*/
+      a{
+        font-family: monospace!important;
+      }
+      .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text a{
+        color: #dccece;
+        text-transform: uppercase;
+        text-align: center;
+      }
+     
+    .side_items{
+      padding: 35px 0px;
+    }
+    
+    .navbar-default{
+      background: transparent !important;
+      box-shadow: 0px 0px 10px #1d1818;
+    }
+    .navbar-right{
+      left: 0px;
+      display: inline-block;
+    }
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+      padding: 20px 15px;
+    }
+    .act_li{      
+      
+    }
+    
+    .navcolb{
+      color: #e0d6d6!important
+    }
+    @keyframes border{
+      from{
+        border-bottom: 0px solid white ;
+      }
+      to{
+        border-bottom: 3px solid white ;
+      }
+    }  
+    .aboutcont{
+      padding: 30px 50px;
+    }
+    .aboutimg{
+      margin: 0px 30px;
+        
+      border: 5px solid;
+    }
+    .scrollpos{
+      width: 0px;
+    }   
+    #one img{
+      left: -300px;
+      position: relative;
+    }
+    #two img{
+      top: -300px;
+      position: relative;
+    }
+    #third img{
+      top: -300px;
+      position: relative;
+    }
+    #fourth img{
+      bottom: -300px;
+      position: relative;
+    }
+    #fifth img{
+      bottom: -300px;
+      position: relative;
+    }
+    #sixth img{
+      right: -300px;
+      position: relative;
+    }
+    h2{
+      font-family: monospace!important;
+    }
+    .side_i span{
+      width: 33.33%;
+      float: left;
+      text-align: center;
+    }
+    .side_i a{
+      width: 60%;
+      display: inline-block;      
+    }
+    .side_i img{
+      width: 100%;
+    }
+    #navbar li a{ 
+        font-family: fantasy,monospace!important;
+      letter-spacing: 1px;
+      position: relative;
+      top: -60px;
+      margin: 0px;
+
+      }
+      #navbar li a:hover{
+        color: #bb1318 !important
+      }
+      .sidebar{
+        float: right;
+      position: relative;
+      right: 0px;
+      top: -82px;
+      width: 0%;
+      padding: 0px;
+      background: #292727;
+      box-shadow: #101010 0px 0px 10px;
+    display: none;
+    }
+    .side_hr{
+      border: 1px solid rgb(152, 47, 47);
+        width: 80%;
+        margin: auto;
+        border-radius: 100px;
+        text-align: center;
+    }
+    .sidebar li{
+      list-style-type: none;      
+      padding: 20px 20px;
+    }
+    .sidebar li a{
+      color: #dedede!important;
+      text-transform: uppercase; 
+      padding: 20px 0px;
+      cursor: pointer;
+    }
+    .sidebar li:hover{
+      background: #464242;
+      box-shadow: inset 0px 0px 5px 
+    }
+    .sidebar li:hover a{
+      color: white!important;
+      text-decoration: none;
+    }
+    .icn{
+      float: right;
+      top: -35px;
+      position: relative;
+      font-size: 18px;
+      padding: 10px 0px;
+      cursor: pointer;
+      color: rgb(187, 19, 24);
+    }
+    .navcola li a{
+      color: #dedede!important;    
+    }
+    .navcol{
+      background:#211e1e!important;
+      z-index: 999999;
+    }
+    .grid1 figure,figure img{
+      width: 100%;
+    }
+    .zones_p{
+      position: absolute;
+      left: 0px;
+      width: 40px;
+      background: rgb(0,0,0,0.9);
+      top: 0px;
+      margin: 0px;  
+      text-transform: uppercase;
+      padding: 10px 10px;
+      z-index: 9999;
+      word-break: break-all;
+    }
+    .modal-content img{
+          width: 100%!important;
+          padding: 50px 0px 0px 10px!important;
+    }
+    .zones_i{
+      width: 20%;
+      float: left;
+      position: relative;
+    }
+    .zones_i img{
+      width: 100%;
+      height: 90vh;
+      object-fit: cover;
+    }
+    .zones_i div:nth-child(2){
+      background-color: rgb(0,0,0,0.6);
+      color: white;
+      padding: 10px  20px;
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+      margin: 0px;
+      font-family: monospace;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .zones_i div:nth-child(3){
+      background-color: rgb(0,0,0,0.6);
+      color: white;      
+      padding: 5px  20px;
+      width: 60%;
+      position: absolute;
+      margin: 0px;
+      bottom: 80px;
+      right: 0px;
+      font-family: monospace;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .zones_i div:nth-child(4){
+      background-color: rgb(0,0,0,0.6);
+      color: white;      
+      padding: 5px  20px;
+      width: 60%;
+      position: absolute;
+      margin: 0px;
+      bottom: 120px;
+      right: 0px;
+      font-family: monospace;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .zones_i div:nth-child(3) p{
+      font-size: 16px;
+      margin: 0px;
+      color: white;
+    }
+    .zones_i div:nth-child(4) p{
+      font-size: 16px;
+      margin: 0px;
+      color: white;
+    }
+    .zones_i p:first-child{
+        float: left;
+        width: 100%;
+        font-size: 20px;
+        color: white;
+    }
+    .zones_i div:nth-child(4) p:hover,.zones_i div:nth-child(3) p:hover{
+      color: #bb1318;
+    }
+    .zones_i p:not(:first-child){
+        float: right;
+        width: 100%;
+        text-align: right;
+        padding: 5.5px 0px; 
+    }
+    /*.zones_i{
+      margin: 0px;
+      transition: 3s all;
+      transform-origin: 100% 100%;
+      transform: translateY(100%) rotateX(-90deg);
+    }
+    .zone_up{
+      transform-origin: 0% 0%;
+      transition: 4s all;
+      transform: rotateX(90deg) translateY(-100%);
+    }
+    .zone_down{
+      transition: 4s all;
+      transform-origin: 100% 100%;
+      transform: translateY(100%) rotateX(-90deg);
+    }*/
+    .zones_d>div:nth-of-type(even){
+      bottom: -1000px;
+    }
+    .zones_d>div:nth-of-type(odd):not(:first-child){
+      top: -1000px;
+    }
+  
+      .carousel-indicators{
+        bottom: -35px;
+      }
+      .carousel{
+    left: 50%;
+    transform: translate(-50%);
+    width: 900px;
+    top: 215px !important;
+  text-align: center;
+      }
+
+    @media screen and (max-width: 1129px) {
+      .zones_i{
+        width: 100%;
+      }
+    }
+    .nav_del a{
+        top: 0px!important;
+      }
+      @media only screen and (max-width:768px){
+        .navbar-right{
+          display: none;
+        }
+        #navbar{
+          overflow-y: scroll;
+          height: 300px;
+          overflow-x: hidden;
+        }
+        .navbar-brand>img{
+          margin-left: 10px!important; 
+        }
+        .navbar-header button{
+          padding: 13px;
+        }
+        .scrollpos{
+          margin: 0px!important;
+        }
+  .carousel-inner{
+   top: 25px;
+  }
+.carousel{
+  width: auto;
+}
+  .item div{
+   width: 100% !important;
+  }
+      }
+      .modal{
+        background: rgb(0,0,0,0.6);
+      }
+      
+      .item img{        
+        float: left;
+        width: 100%!important;
+  padding: 10px;
+      }
+      .item div{
+     width: 50%;
+  float: left;     
+  }
+  .item h4:not(:first-child){
+    margin-top: 30px;
+  }
+  .item h4:first-child{
+    margin-top:15px;
+  }
+      .item_first{
+        position: relative;
+        padding: 10px 20px 
+      }
+      .item_third{
+        text-align: center;
+        width: 100% !important;
+        box-shadow: 0px 0px 10px black;
+        padding: 10px 20px;
+      }
+      .carousel-inner{
+        background: rgb(0,0,0,0.7); 
+      }
+      .item_sec{
+        overflow-y: scroll;
+        max-height: 300px; 
+        padding: 10px 20px; 
+      }
+      .item-sec h4{
+        margin-top: 0px;
+      }
+      .item_sec,.item_third{
+        color: #dedede;
+      }
+  #myModal18 div,#myModal19 div,#myModal110 div,#myModal111 div,#myModal112 div{
+    padding: 15px;
+    text-align: center;
+  }
+  #myModal18>div,#myModal19>div,#myModal110>div,#myModal111>div,#myModal112>div{
+    padding-bottom: 0px;
+  }
+  #myModal18 .item div,#myModal19 .item div,#myModal110 .item div,#myModal111 .item div,#myModal112 .item div{
+    width: 45% !important;
+        margin: 0px !important;
+        display: inline-block !important; 
+    float: none;
+  }
+  #myModal18 .carousel-inner,#myModal19 .carousel-inner,#myModal110 .carousel-inner,#myModal111 .carousel-inner,#myModal112 .carousel-inner{
+    position: absolute;
+    left: 0px;
+  }
+  .item h4,.item h5{
+    color: #dedede;
+  }
+  </style>
+    <script>
+  $(document).ready(function(){
+    var a = $(window).outerWidth();  
+    if(a<=900){
+      a = a-50;
+      $(".carousel-inner").css("width",a+"px");
+      console.log(a);
+    }
+    else{
+      $(".carousel-inner").css("width",900+"px");
+    }
+  });
+  $(window).resize(function(){
+    var a = $(window).outerWidth();  
+    if(a<=900){
+      a = a-50;
+      $(".carousel-inner").css("width",a+"px");
+            console.log(a);
+    }
+    else{
+      $(".carousel-inner").css("width",900+"px");
+    }
+
+  });
+
+      flag =false;
+      $(document).ready(function(){
+        var width = $(window).outerWidth();
+        if(width<=768 && flag==false){
+          flag = true;          
+          var a = $(".sidebar .side_items li").length;
+          $(".icno").parents("li").css("display","none");          
+          console.log(a);          
+          for(var i=0;i<a;i++){
+            var b = $(".sidebar .side_items li:eq("+i+")").html();
+            $("#navbar ul").append('<li class="nav_button nav_del">'+b+'</li>');
+            $(".sidebar").hide();
+          }
+        }
+      }); 
+      $(window).resize(function(){
+        var width = $(window).outerWidth();
+        if(width<=768 && flag==false){
+          flag = true;          
+        $(".sidebar").hide();
+          var a = $(".sidebar .side_items li").length;
+          $(".icno").parents("li").css("display","none");
+          console.log(a);          
+          $(".sidebar").hide();
+          for(var i=0;i<a;i++){
+            var b = $(".sidebar .side_items li:eq("+i+")").html();
+            $("#navbar ul").append('<li class="nav_button nav_del">'+b+'</li>');
+          }          
+        }
+          else if(width>768 && flag==true){
+            flag = false;         
+            var count =0;
+          $(".icno").parents("li").css("display","inline-block"); 
+          $("#navbar").css("height","auto");                  
+          console.log(b);          
+            $("#navbar ul .nav_del").remove();                      
+          }
+      }); 
+      $(document).ready(function(){
+        $(".icn").click(function(){       
+          $(".sidebar").animate({padding:"0px"});
+          $(".sidebar").animate({width:"0px"});            
+            $(".icn").hide();
+        });
+        $(".icno").click(function(){ 
+          $(".sidebar").show();     
+          $(".sidebar").animate({width:"20%"});
+          $(".sidebar").animate({padding:"0px 15px"});  
+          $(".icn").show();          
+        });
+      });
+      $(document).ready(function(){
+        var a = $(window).outerHeight();
+        $(".sidebar").css("height",a);   
+          $(".navbar-brand>img").animate({left: 0});        
+      });
+      $(window).resize(function(){
+        var a = $(window).outerHeight();
+        $(".sidebar").css("height",a);        
+      });        
+      $(window).scroll(function(){
+        var a = $(document).innerHeight();
+        var b = $(window).scrollTop();
+	if($(window).outerWidth()>768){
+	        a = (b/(a-72.3/100*a)*100);
+        	console.log(a);
+        	a=a+"%";
+        	$(".scrollpos").css("width",a);			
+	}        
+	else{
+		a = (b/a*28);
+        	console.log(a);
+        	a=a+"%";
+        	$(".scrollpos").css("width",a);					
+	}
+      });
+      $(document).ready(function(){
+        $("#navbar li a").animate({top: 0},1100);
+      });
+      $(document).ready(function(){
+        $("#navbar li a").mouseover(function(){
+          $(this).animate({letterSpacing: 3},50);
+        });
+        $("#navbar li a").mouseout(function(){
+          $(this).animate({letterSpacing: 1},50);
+        });
+      });
+      
+      $(document).ready(function(){
+        var i=0;
+        var b=$(".zones_i").length;
+        console.log(b);
+        for(i=0;i<=b;i++){
+          if(i%2==0){
+            $(".zones_i:eq("+i+")").animate({bottom:0},1200);
+          }
+          else{
+            $(".zones_i:eq("+i+")").animate({top:0},1200);
+          }
+        }
+
+      });
+      $(document).ready(function(){
+    var a = $(".zones_i img").innerHeight();
+    $("#footer").parent().css("position","absolute");
+    $("#footer").parent().css("z-index","-1");
+    console.log(a); 
+    $("#footer").parent().css("top",a+60);  
+  });
+      $(window).resize(function(){
+    var a = $(".zones_i img").innerHeight();
+    $("#footer").parent().css("position","absolute");
+    $("#footer").parent().css("z-index","-1");
+    console.log(a); 
+    $("#footer").parent().css("top",a+60);  
+  });
+   </script>
+</head>
+<body>
+      <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+  <nav class="navbar navbar-default navbar-fixed-top navcol">
+      <div class="container" style="width: 100%;">
+        <div class="navbar-header na">
+        <a class="navbar-brand" href="index.php" style="margin:0px;">
+          <img alt="Brand" src="img/loader_logo2.png" style="float:left;margin-left: 25px;">
+        </a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-right">
+          <ul class="nav navbar-nav navcola">                  
+          <li class="nav_button act_li"><a href="index.php">Home</a></li>
+            <li class="nav_button"><a href="zones.php" style="color:#bb1318 !important;">Zones</a></li>
+            <li class="nav_button"><a href="register/">Register</a></li>
+          <li class="nav_button"><a href="gallery.php">Gallery</a></li>
+             <!--<li class="nav_button"><a>Search  <i class="fa fa-search"></i></a></li>-->
+            <li class="nav_button"><a><i class="fa fa-bars icno"></i></a></li>             
+          </ul>       
+        </div>
+        <hr class="scrollpos" style="background: rgb(152, 47, 47);clear: both;border: none;height: 3px;">
+      </div>
+      <div class="sidebar container" id="">
+        <ul class="side_items" style="height: 100%;">
+          <i class="fa fa-close icn"></i>
+      <li class="nav_button"><a id="star-night"  data-toggle="modal" data-target="#myModal">Star Night</a></li> <!--#modal-01--> 
+      <hr class="side_hr">      
+          <li class="nav_button" data-id="contact"><a href="contact.php">Contact Us</a></li> 
+          <hr class="side_hr">      
+          <li class="nav_button" data-id="sponsors"><a href="sponsors.php">Sponsors</a></li> 
+          <hr class="side_hr">    
+          <li class="nav_button" data-id="schedule"><a href="schedule.php">Schedule</a></li> 
+          <hr class="side_hr">    
+
+          <div style="position: absolute;bottom: 20px;left: 0px;padding: 0px 30px;" class="side_i">
+            <span>
+              <a href="https://www.facebook.com/algorythm.cu/" target="_blank"/><img src="img/facebook.png" /></a>
+            </span>
+      <span>
+        <a href="https://https://www.youtube.com/watch?v=rZ21TYW9dKo" target="_blank"/><img src="img/youtube.png" /></a>
+      </span>
+      <span>
+        <a href="https://www.instagram.com/algorythm2k18/" target="_blank"/><img src="img/instagram.png" /></a>
+      </span>
+      <div style="float: left;text-align: center;width: 100%">
+              <h4 style="text-align: center;color: #0a0a0a;">Algorythm 2018</h4> 
+            </div>
+          </div>  
+        </ul>
+    </nav>  
+    <div id="myModal2" class="modal fade" role="dialog" style="top: 0px;">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Notifications</h4>
+            </div>
+            <div class="modal-body">
+              <p style="font-size:16px">The much awaited Campus Ambassador Programme is live now.<br/>Register at <a href="ca/index.php" target="_blank">algorythmfest.com/ca</a></p>
+            </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+    <div id="myModal" class="modal fade" role="dialog" style="top: 0px;z-index:9999999999;">
+      <div class="modal-dialog" style="width: 100%;margin: 0px;">
+
+        <!-- Modal content-->
+        <div class="modal-content" style="text-align: center;">
+          <button type="button" class="close" data-dismiss="modal" style="left: 50%;font-size: 45px;position: absolute;outline: none!important;opacity: 1;">&times;</button>
+            <img src="img/star_night/star_night.jpg" alt="Click Here" style="width: auto!important;max-height: 90vh;">    
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid" style="position: absolute;top: 60px;padding: 0px;">              
+      <div class="col-lg-12 zones_d" style="padding:0px;">
+        <div>
+          <h3 class="zones_p">Zones</h3>
+        </div>
+        
+        <div class="zones_i" style="margin: 0px;">
+             <img src="carnival.jpg" alt="img21">
+             <div>
+              <p>rythmratz</p>
+             </div>      
+             <div>
+               <p data-toggle="modal" data-target="#myModal18">Zonal Head</p>
+             </div>    
+             <div>
+               <p data-toggle="modal" data-target="#myModal15">events</p>
+             </div>  
+             <div></div>
+        </div>
+  <div class="zones_i" style="margin: 0px;">
+             <img src="abhivyakti.jpg" alt="img21">
+             <div>
+              <p>abhivyakti</p>
+            </div>
+              <div>
+               <p data-toggle="modal" data-target="#myModal19">Zonal Head</p>
+             </div>    
+             <div>
+               <p data-toggle="modal" data-target="#myModal17">events</p>
+             </div>      
+        </div>
+  <div class="zones_i" style="margin: 0px;">
+             <img src="symphony.jpg" alt="img21">
+             <div>
+              <p>symphony</p>              
+             </div>          
+             <div>
+               <p data-toggle="modal" data-target="#myModal110">Zonal Head</p>
+             </div>    
+             <div>
+               <p data-toggle="modal" data-target="#myModal13">events</p>
+             </div>  
+        </div>
+        
+  <div class="zones_i" style="margin: 0px;">
+             <img src="game_warp.jpg" alt="img21">
+             <div>
+              <p>game warp</p>
+            </div>
+              <div>
+               <p data-toggle="modal" data-target="#myModal111">Zonal Head</p>
+             </div>    
+             <div>
+               <p data-toggle="modal" data-target="#myModal16">events</p>
+             </div>      
+        </div>
+ 
+        <div class="zones_i" style="margin: 0px;">
+             <img src="music.png" alt="img21">
+             <div>
+              <p>fun fiesta</p>              
+             </div>      
+             <div>
+               <p data-toggle="modal" data-target="#myModal112">Zonal Head</p>
+             </div>    
+             <div>
+               <p data-toggle="modal" data-target="#myModal14">events</p>
+             </div>  
+        </div>
+      </div>
+    </div>
+<div style="float: left;width: 100%;">
+      <div id="footer" class="row" style="margin: 0px;">
+        
+        <div class="social-icons-footer">
+          <a href="https://www.facebook.com/algorythm.cu/" target="_blank"/><img src="img/facebook.png" /></a>
+          <a href="https://https://www.youtube.com/watch?v=rZ21TYW9dKo" target="_blank"/><img src="img/youtube.png" /></a>
+          <a href="https://www.instagram.com/algorythm2k18/" target="_blank"/><img src="img/instagram.png" /></a></br>
+          <img id="up" src="img/up.png"/>
+        </div>
+        
+      </div>
+</div>
+    <div id="myModal13" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myCarousel1" class="carousel slide" data-ride="carousel" data-pause="hover" style="position: absolute;top: 215px;">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/fusion.jpg" alt="">        
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>Individual participation.</li><li> Time limit: 2-4 minutes.</li><li>Language no bar.</li><li>The participant exceeding the time limit will be disqualified.</li><li>Any sort of bad behavior/foul language will lead to disqualification. </li><li>Participants can bring their karaoke or any one instrument along whereas the judgment would be on the basis of singing only.</li> <li>Judges decision will be final.</li><li>Individual/Duet Participation.</li>  
+        </ol>
+      </div>
+      <div class="item_third">It's time to get your singing voices ready and melody to rule over the hearts! Make everyone introspect the silence of solitude and passion. Sing out your heart loud and let the musical battle begin!
+      <h4>REGISTRATION FEE: Rs 150 PER PERSON </h4>   
+      <h4>CASH PRIZE: Rs 8,000 </h4>
+        </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+  <div id="myModal14" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-pause="hover" style="position: absolute;top: 215px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel2" data-slide-to="1"></li>
+    <li data-target="#myCarousel2" data-slide-to="2"></li>
+    <li data-target="#myCarousel2" data-slide-to="3"></li>
+    <li data-target="#myCarousel2" data-slide-to="4"></li>
+    <li data-target="#myCarousel2" data-slide-to="5"></li>
+  
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">      
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/snaptext.jpg" alt="">     
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Team limit: Individual participation. </li><li>  Number of rounds: 2 </li><li> Participants will be provided with QWERTY keypad button phones. </li><li> A paragraph would be provided which will be displayed on the screen. </li><li>Whosoever will meet the criteria will get promoted to the next round.  </li> 
+        </ol>
+      </div>
+      <div class="item_third">Reviving the vintage keypad and testing your typing speed. Come and relive the feelings of buttons on your fingertips  
+        <h4>REGISTRATION FEE: Rs 100 PER PERSON </h4>
+        <h4>PRIZE: Rs 2,000 </h4>
+        </div>
+    </div>
+
+    <div class="item">
+      <div class="item_first">
+              <img src="img/posters_2018/img_thumb/mr_ms_algorythm.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Team Limit: Individual Participation</li><li> Round 1: Each participant will walk down the aisle and express themselves and showcase their talent. </li><li>. Round 2: Shortlisted participants would be asked question on which the participant will have to give their views. </li><li>The one who wins the maximum points earned grabs the trophy. </li>
+        </ol>
+      </div>
+      <div class="item_third">If you can make the heads turn and heartbeats skip, you know you have what it takes to be The LIMELIGHT of the mega event. Fanciful your attire for its time to outshine your competitors and be the Estrella of Mr. and Ms. Algorythm'18.  
+        <h4>REGISTRATION FEE: Rs 100 PER PERSON </h4>
+        <h4> Mr. Algorythm'18: Rs 5,000    Ms. Algorythm'18: Rs 5,000 </h4>
+        </div>
+    </div>
+    <div class="item">
+      <div class="item_first">
+              <img src="img/posters_2018/img_thumb/paintball.jpg" alt="">    
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>Team Limit: 4 Members per team </li><li> Number of rounds: 1 </li><li>Two teams play at a time. 4</li><li>No physical contact between the players is allowed.  </li>  
+        </ol>
+      </div>
+      <div class="item_third">Fight a colourful battle and paint the world with the force of specialised issued Paintball guns and specifically tailored uniform.  
+        <h4>REGISTRATION FEE: Rs 150 PER PERSON </h4>
+        </div>
+    </div>
+    <div class="item">
+      <div class="item_first" style="width: 70%;margin:0px;margin-left:15%;margin-right:15%;">
+              <img src="img/posters_2018/img_thumb/zorbing.jpg" alt="">    
+      </div>
+      
+      <div class="item_third">Roll around and fight candidates in giant-sized transparent balls and see the world upside down.  
+        </div>
+    </div>
+    <div class="item">
+      <div class="item_first">
+              <img src="img/posters_2018/img_thumb/picraaz.jpg" alt="">    
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>Individual participation.</li><li>No modifications or computerized adjustments would be accepted. Any modifications like watermark will lead to disqualification. </li><li>. Specifying the make/model of the camera and lens are a must.<li>The photographs should be captured inside the campus. </li><li>. Mobile phone photography is allowed, as long as it hasn't been modified using any software. </li><li>. The maximum number of entries per person is limited to 5. However, each photograph requires a new registration.  </li><li> You are required to submit the soft copy of the photograph on email id- algorythm.chitkara@gmail.com till 4:00 pm with the details.</li> <li>. You need to write your full name, university name, lens make and contact number with your entry. </li><li>. Your submission will be considered as successful registration. You will not get any separate registration slip.</li><li>Theme - Best Event Shot</li>  
+        </ol>
+      </div>
+      <div class="item_third">Capture a moment and immortalize it forever. Let the spectators be moved by the fusion of beauty, reality and experience leaving a long lasting impression. 
+      <h4>REGISTRATION FEE: Rs 100 PER PERSON </h4>   
+      <h4>CASH PRIZE: 2,000 </h4>   
+        </div>
+    </div>
+    <div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/foodwithoutfire.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Team Limit: 2 Members .</li><li>Any medium of direct or indirect heat is not permitted such as :- Gas burners, Microwave ovens, Electric kettles, Induction cooktops ,Heaters   </li><li>Pre cooked or half done food items / ingredients will not be permitted. </li><li> Ready to cook products by addition of water / application of heat are not permitted - ITC Kitchens of India, MTR, etc. The participant exceeding the time limit will be disqualified.</li><li>Propriety products are permitted such as :-  Milk, Breads, Namkeens - lays, wafers, pringles, kurkure, masala peanuts, etc., Cookies, Biscuits, Butter, Cream, Condensed Milk, Muffins (Not to be used as a dish, but as an ingredient) , Brownies (Not to be used as a dish, but as an ingredient), Jams , Marmalade, Honey, Mayonnaise, Ghee, Dalda 17. Fats & Oils, Dry fruits, Canned fruits, Cereals, Fresh fruits and vegetables  </li><li> Working station will be allotted. </li> <li>Equipment's will be issued / provided as per requirement, such as -  Mixer grinder, Chopping/cutting boards, Spatula, Pastry Brush, Mixing bowls, Steel plates</li><li>Participants will be required to bring their own Ingredients, name tags, platters / crockery for display and their own knives / spoons. </li><li>Each team needs to prepare three dishes (note all three cannot be sweet or savoury) </li><li><li> Menu and ingredient list has to be shared with the coordinating team latest by 6th October 2018, 17h00, for approval. </li>
+          <li> Participants will be judged upon their creativity, taste of product and presentation. </li>
+          <li>Every dish that is prepared must be in 2 portions / plates (one for presentation and one for tasting) </li>
+          <li>This will be a three hour competition. 
+</li>
+        </ol>
+      </div>
+      <div class="item_third">Plate up your best dishes and make it appetizing! Let the aroma of your food drool over everybody!  
+        <h4>REGISTRATION FEE: 100 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 5,000 </h4>
+        </div>
+    </div>      
+    </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel2" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+  <div id="myModal15" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-pause="hover" style="position: absolute;top: 215px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel3" data-slide-to="1"></li>
+    <li data-target="#myCarousel3" data-slide-to="2"></li>
+    <li data-target="#myCarousel3" data-slide-to="3"></li>
+  
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    
+
+    <div class="item active">      
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/folklore.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>The Team should comprise of 8 to 20 members.</li><li> The time limit is 8 to 12 minutes. </li><li> Any kind of prop is allowed.</li><li> Any kind of fluid or flame is strictly prohibited on stage.</li><li> Pre-recorded music should be brought in an Audio CD/DVD or a pen drive in  .cda  or  .format ONLY. (Other formats may not be supported on the computer - use them at your own risk).</li><li> Participants must bring 2 CDs/pen drives containing their sound track.</li><li> Obscenity of any kind is not allowed and will lead to immediate disqualification.</li><li> The decision of the judges shall be final and binding.</li><li> Participants exceeding the time limit will be disqualified. </li>
+        </ol>
+      </div>
+      <div class="item_third">Time to explore the innards of folk. Let it smash the floor and spread the charm and integrity of OUR culture! BUCKLE UP people for its time for everyone to groove on the folk beats in your festive apparels and Prove Why your Folk OUTPLAYS them ALL! 
+ 
+        <h4>REGISTRATION FEE: 200 PER PERSON </h4>
+        <h4>FIRST PRIZE: Rs 40,000 </h4>
+        <h4>SECOND PRIZE: Rs 20,000 </h4>
+        </div>
+    </div> 
+
+    <div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/stomp.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> The Team should comprise of 8-20 members. </li><li> The time limit is 8 to 12 minutes. </li><li> Any kind of fluid or flame is not allowed on stage. </li><li> Pre-recorded music should be brought in a CD/ pen drive (in .cda or .mp3 format ONLY). </li><li> Obscenity of any kind is not allowed and will lead to immediate disqualification.</li><li> The decision of the judges shall be final and binding.  
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">It's time to play your ace card where you and your team stomp's the yard where all the energy explodes on the stage and sets it on fire! 
+ 
+        <h4>REGISTRATION FEE: 200 PER PERSON </h4>
+        <h4>FIRST PRIZE: Rs 40,000 </h4>
+        <h4>SECOND PRIZE: Rs 20,000 </h4>
+        </div>
+    </div> 
+
+    <div class="item">
+      <div class="item_first">
+          <img src="img/posters_2018/img_thumb/fantastic_toe.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Individual/Duet Participation.</li><li> Any kind of prop is allowed. </li><li> The time limit is 3 to 5 minutes. </li><li> Pre-recorded music should be brought in an AudioCD/ pen drive (in .cda or .mp3 format ONLY).</li><li> Obscenity of any kind is not allowed and will lead to immediate disqualification. </li><li> The decision of the judges shall be final and binding and participants exceeding the time limit will be disqualified.  
+ 
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">
+ Feel like hogging up the entire spotlight for yourself? Seize all the fame and pride when you've stepped all alone on the stage. Leave the audience in awe with some flashy moves and leave a sparkle as you move. 
+        <h4>REGISTRATION FEE: 150 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 10,000 </h4>
+        </div>
+    </div> 
+
+<div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/vogue.jpg" alt="" style=" height: 300px;object-fit: cover;">  
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>The Team should comprise of 15 to 25 members.</li>
+          <li> Time limit: 15 minutes (including setup).</li>
+          <li> Exceeding the given time limit will result in disqualification. </li><li> All garments, props and other accessories must be arranged by the participating teams. </li><li> Pre-recorded music should be brought in both Audio CD/pen drive (in .wav or .mp3 FORMAT only).</li><li> All the logistical requirements must be given to the organizers along with the C.D/PD. </li><li> The participants are not allowed to target any individual, institution or religion. </li><li> No fire or water works allowed. Obscenity of any kind is not allowed and will lead to immediate disqualification. </li><li> Judges decision will be final. </li><li>Breaking any of the mentioned rules will lead to disqualification.   </li>
+        </ol>
+      </div>
+      <div class="item_third">Update your trends for the FASHION FIESTA. It gives you a platform to emerge as the most sparkling TEAM when all the eyes are fixated on your grace and glorifying walk. Be the trendsetters and let the crowd be hypnotized by your performance.   
+        <h4>REGISTRATION FEE: 200 PER PERSON </h4>
+        <h4>FIRST PRIZE: Rs 75,000 </h4>
+        <h4>SECOND PRIZE: Rs 37,500 </h4>
+        </div>
+    </div> 
+    </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+  <div id="myModal16" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myCarousel4" class="carousel slide" data-ride="carousel" data-pause="hover" style="position: absolute;top: 215px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel4" data-slide-to="1"></li>
+    <li data-target="#myCarousel4" data-slide-to="2"></li>
+    <li data-target="#myCarousel4" data-slide-to="3"></li>
+    <li data-target="#myCarousel4" data-slide-to="4"></li>
+    <li data-target="#myCarousel4" data-slide-to="5"></li>
+    <li data-target="#myCarousel4" data-slide-to="6"></li>
+  
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="item_first">
+          <img src="img/posters_2018/img_thumb/fifa_19.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>  Competition Method: 1 on 1 </li><li> Half Length: 5 minutes. </li><li> Difficulty level: Legendary </li><li> Injuries: Off.</li><li>Offside: On </li><li> Bookings: On </li><li> Stadium: Random </li><li> Weather: Clear .</li><li> Substitutions Allowed: 3 </li><li> Players can bring their own controllers/gamepads.  </li><li> Scores at the end of 90 minutes of normal time (including injury time) will determine the winner of each match.  </li><li> If scores are tied at the end of 90 minutes, extra time (classic) will be played to determine the winner.  </li><li> Match won't be stopped once started except for substitutions and team management.  </li><li> If there is disconnection during the game, the match will be restarted.  </li><li> Substitutions can be made only during half time and 75th minute.  </li><li> Classic x1, world 11 teams are not allowed.  </li><li> Applicants are responsible for their own items.  </li><li> Qualifier Round: a) All players can participate in one elimination match.  b) Two randomly selected players will play against each other.  c) Qualifier round will continue until 4 players are left.  </li><li> Semi Finals:  a) 4 players will be grouped in two groups.  b) Round time: 5 minutes  c) Best of 3 matches will be played between two competitors.  d) Winners of each group will play against each other in the finals.  </li><li> Finals: a) Best of 3 matches will be played between two competitors.  b) Match between the 2 finalists will decide The LAN Gaming Fifa 17 Winner. 
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Create your own fantasy,monospace,sans-serif;Chase the Glory like Messi and hit a strike as powerful as Ronaldo to OUTPLAY 'em all.   
+        <h4>REGISTRATION FEE: 150 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 10,000 </h4>
+        </div>
+    </div> 
+
+    <div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/soccer.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Team members: 4 Member Team </li><li> Number of rounds: Knock out </li><li> Time limit is 12 minutes (6 minutes per half + 2 minutes break) </li><li> All games must start with each team having a minimum of 4 players on the field. If a team cannot field 4 players to start the game, they must forfeit. </li><li> Goalkeeper can be any of the 4 players present on the field and touching through hands is not allowed.</li><li> There is no offside. </li><li> When the ball goes out over the sideline, a kick-in takes place. The ball must be placed stationary on the sideline and kicked in. All opposing players must be at least 5 meters from the ball. </li><li> A goal can only be scored from within a pre-defined area. Goals scored from outside this area will not be considered. </li><li> A player can score direct from a corner.  </li><li> The penalty kick will be taken from the opposite goal post; no goalkeeper will be present at the goal.  </li><li> No slide tackling. Rough play is not allowed.  </li><li> The referee's decision is FINAL.  </li><li> Judgment criteria: During the game, the referee has the option of using 2 disciplinary cards � yellow and red. If a player receives a red card, that player is immediately expelled from the game.  
+ 
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Time to take things to the ground and show the world who rules the grass with effortless moves. 
+ 
+        <h4>REGISTRATION FEE: 150 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 10,000 </h4>
+        </div>
+    </div> 
+    <div class="item">
+      <div class="item_first">
+          <img src="img/posters_2018/img_thumb/cs_go.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> Competition method: 5 Vs. 5  </li><li>  No player can play from 2 teams.  </li><li>  Applicants are responsible for their own items . </li><li>  Matches will be conducted according to the fictious made by the Event Head. </li><li>  Matches will be conducted online through LAN on Steam, guns like M4A1-s, USP-S, CZ-175 and other skins will be available if you have them.  </li><li>  Rounds: 30 rounds (Max. round format) 15 rounds as Terrorists and 15 rounds as CounterTerrorists per team.  </li><li>  The first team that scores 16 rounds wins and the match ends immediately.  </li><li>  Round Time: 1 minute 55 seconds.  </li><li>  Starting money: 800$, Freeze time: 15 seconds.   </li><li> Timeouts: 4 (each of 1 Minute per match).  </li><li>  There will be a Knife round at the start of match to decide the in-game sides. Winner gets to choose the side i.e: Counter-terrorists or Terrorists.   </li><li>  Maps: de_dust2, de_inferno, de_nuke, de_train. de_mirage, de_overpass, de_cobblestone, de_cache.  </li><li> Maps will selected based on the VETO system, in case of any discrepancy, event head's decision will be final.   </li><li>  In case of a Tie: 6 rounds will be played (3 rounds as Terrorists and 3 rounds as CounterTerrorists per team) with starting money 10,000$. The team who will win 4 rounds is the winner of the tie breaker round.   </li><li>  In case of a Tie again : then again 6 rounds will be played again.   </li><li>  In case of disconnection during a match: If all the players cannot play due to an unintended, unforeseen accident such as server stoppage: (i) Before the 3rd round starts: Restart the match.  (ii) After the 3rd round starts: Round will be reset and paused by the server admin till the technical issue is solved.  </li><li>  If up to 3 players are unintentionally disconnected, the score for that round is discarded. The game is paused after the round during the freeze time, and all players wait until the disconnected players are connected to the server.   </li><li>  When all players are reconnected, the match may continue by un-pausing the game.   </li><li>  In case of intentional disconnection, the Zonal head or event head may decide to end the match with the offending team losing by forfeit.   </li><li>  Qualifier rounds- All teams will play knockouts. </li><li>  Players with previous VAC Banned ID's are not allowed to participate, if they are caught their team may get disqualified. </li><li> Players of respective teams must bring their own laptops to play and should posses a valid College ID card. Qualifier round will continue until 4 teams are left.  Subject to penalty or disqualification based on rules mentioned in ESL. Teams can raise a concern over a player if he or the team finds something unusual in game.  Other rules as mentioned in ESL Official Rules for CS:GO: Refer this link: https://play.eslgaming.com/counterstrike/csgo/csgo/open/rules Semi Finals:  4 teams will be grouped in two groups.  </li>
+
+ 
+Teams in same group will play 1 map, team who wins will qualify for the finals.  Finals: A best of 3 matchup will decide The LAN Gaming Counter Strike:Global Offensive winner. Disclaimer : If the above mentioned rules are not followed, the team may get disqualified
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Not tired of taking headshots all day? So start at T-Spawn and don't worry ISIS isn't recruiting. Or start at CT-Spawn killing innocent "terrorists" for fun and live the American dream. 
+        <h4>REGISTRATION FEE: 200 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 20,000 </h4>
+        </div>
+    </div> 
+    <div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/8ball_of_fire.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>  Team Limit: Individual Participation  </li><li> Mode of Conduction: Tournament </li><li> General Rules of 8 Ball Pool will be followed.  </li><li> Knockout rounds will be there.  
+ 
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Precision and skill come together exclusively for you. It's time to turn the classy game of pool to a savage 8 fiery balls of victory. 
+ 
+        <h4>REGISTRATION FEE: 100 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 5,000 </h4>
+        </div>
+    </div> 
+    <div class="item">      
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/basketball.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>   Game mode: Knockout Match. </li><li> Matches will be like league matches where the players selected in the knockout match will get a level up every time and in this way they will get into quarter, semis and can be the WINNERS. </li><li> Time: 10mins 10secs. </li><li> Players: 3 players per team </li><li> Coin Toss is used to decide which side is to be selected. </li><li> In the incident of tie the other team gets to choose the side for rematch. (Time: 5mins 40secs) </li><li> In case of tie again, the team to which the player who scored the highest in the rematch belongs wins. </li><li> If one of the players forfeits the match, the team will be disqualified and the other team will be declared winner (IRRESPECTIVE OF THE SCORE)   
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Is Michael Jordan your idol? Is basketball your passion? Lead your trio to the path of victory with your co-ordination and 3-on-3 is here.   
+        <h4>REGISTRATION FEE: 100 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 8,000 </h4>
+        </div>
+    </div> 
+    <div class="item">
+      <div class="item_first">
+          <img src="img/posters_2018/img_thumb/nfs.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> TEAM LIMIT: Individual participation</li><li> Cars will be provided by the organizing committee in the first round.</li><li> Each race would have a maximum of 4 participants.</li><li> Each course will be selected at random by the organizing committee.</li><li> In case of any errors/bugs/cheating reported, the organizing committee may disqualify or restart the race according to the problem.</li><li> Gamepads will not be provided, but the participant may bring his/her own gamepad/joystick/gaming keyboard along with the drivers for installation.</li><li> Races will continue until a clear winner is decided.</li><li> First round will be setup on the basis of first come first serve.</li><li> The following rounds will be setup on the basis of previous matches. </li><li> The participant will be responsible for their belongings. The supervisor is not responsible in case   of lost item or theft. </li><li> The person may be disqualified in case of late arrival or absence. If a suitable reason is provided for late arrival, a rematch may be considered. Types of Round: Knock Out: According to the number of participants, knockout matches will be held in which only the participant who finishes first will advance until enough participants are selected to conduct league matches. 
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Feed your soul with some thrill and sharp curves at a cutting edge speed of muscles. NEED FOR SPEED is what you need to get going, for only the REAL racers know the feel! As speed is not just a number it's an emotion. 
+        <h4>REGISTRATION FEE: 100 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 10,000 </h4>
+        </div>
+    </div> 
+    <div class="item">
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/pubg.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li>  Team Limit: 4 Members.</li><li> The opponent team should check for any discrepancies before the start of event otherwise the game will continue as usual with the same configurations if anything reported at the mid of the game.</li><li> The organizers have the right to disqualify and dismiss any registered player, at any stage, for any reason, with no prior warning to the player.</li><li> Any disagreements with rulings must be made directly to the Organizer in a reasonable manner at the time of the incident, at which time a prompt decision will be made. The Organizer's decisions are final.</li><li> Any kind of MODES are not allowed, will lead to disqualification of team. 
+  
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Plate up your best dishes and make it appetizing! Let the aroma of your food drool over everybody!  Explore the unchartered lands. Exploit the resources! Kill your enemies stand on the top of the ladder with all the players unknown to the battle ground! Kill'em all as it's the chicken craving you have for the dinner!
+        <h4>REGISTRATION FEE: 150 PER PERSON </h4>
+        <h4>CASH PRIZE: Rs 8,000 </h4>
+        </div>
+    </div> 
+    </div>
+    <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel4" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</div>
+</div>
+</div>
+  <div id="myModal17" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myCarousel5" class="carousel slide" data-ride="carousel" data-pause="hover" style="position: absolute;top: 215px;">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">      
+      <div class="item_first">
+        <img src="img/posters_2018/img_thumb/halla_bol.jpg" alt="">
+      </div>
+      <div class="item_sec">
+        <h4>Rules</h4>
+        <ol>
+          <li> The Team should comprise of 15 to 25 members. </li><li> The time limit is 15 to 18 minutes. </li><li> Props are allowed. </li><li> No GULAL. </li><li> Musical instruments are allowed. </li><li> Electrical instruments are not allowed. </li><li> Abusive language is strictly prohibited. </li><li> Any team exceeding the time limit will lead to disqualification. </li><li> The decision of the judges shall be final and binding.  
+  
+          </li>
+        </ol>
+      </div>
+      <div class="item_third">Let the fearless hearts scorch the flames of some bold thoughts. Colors and props adding a sleek gesture to the formations. Showcasing moments wherein we can bring a change and be one. So what are you waiting for! 
+ 
+        <h4>REGISTRATION FEE: 200 PER PERSON </h4>
+        <h4>FIRST PRIZE: Rs 40,000 </h4>
+        <h4>SECOND PRIZE: Rs 20,000 </h4>
+        </div>
+    </div> 
+    </div>
+
+
+  </div>
+  <!-- Left and right controls -->
+
+</div>
+
+</div>
+<div id="myModal18" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+  <div id="myCarousel6" class="carousel slide" data-ride="carousel" data-pause="hover" style="top: 215px;">
+  <!-- Indicators -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h4>Faculty Zonal Head</h4>
+  <h5>Ms. Shivani Gautam</h5>
+  <h4></h4>
+  <h4>Student Zonal Head</h4>
+      <div>
+    <h5>Isha</h4>
+    <h5>7973030218</h4>
+  </div>
+     <div>
+    <h5>Aakash Dogra</h4>
+    <h5>9805565035</h4>
+  </div>
+     <div>
+    <h5>Shruti Sharma</h4>
+    <h5>9517930792</h4>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="myModal19" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+  <div id="myCarousel7" class="carousel slide" data-ride="carousel" data-pause="hover" style="top: 215px;">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h4>Faculty Zonal Head</h4>
+  <h5>Mr. Akhil Shetty</h5>
+  <h4></h4>
+  <h4>Student Zonal Head</h4>
+      <div>
+    <h5>Pallavi Saini</h5>
+    <h5>7018134099</h5>
+  </div>
+     <div>
+    <h5>Sarthak Gupta</h5>
+    <h5>8894444284</h5>
+  </div>
+  
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="myModal110" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  <div id="myCarousel8" class="carousel slide" data-ride="carousel" data-pause="hover" style="top: 215px;">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h4>Faculty Zonal Head</h4>
+  <h5>Dr. Tania Bansal</h5>
+  <h4></h4>
+  <h4>Student Zonal Head</h4>
+      <div>
+    <h5>Akashdeep Sharma</h5>
+    <h5>9805197998</h5>
+  </div>
+     <div>
+    <h5>Neha Sharma</h5>
+    <h5>9988640922</h5>
+  </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div id="myModal112" class="modal fade" role="dialog">
+   <div class="modal-dialog">
+  <div id="myCarousel9" class="carousel slide" data-ride="carousel" data-pause="hover" style="top: 215px;">
+  <!-- Indicators -->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h4>Faculty Zonal Head</h4>
+  <h5>Mr. Neeraj</h5>
+  <h5>Mr. Amit Monga</h5>
+  <h4>Student Zonal Head</h4>
+      <div>
+    <h5>Mansha Hilal</h5>
+    <h5>9882009962</h5>
+  </div>
+     <div>
+    <h5>Divyanshu Bali</h5>
+    <h5>8054049010</h5>
+  </div>
+     <div>
+    <h5>Gautam Goyal</h5>
+    <h5>9999064840</h5>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="myModal111" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  <div id="myCarousel10" class="carousel slide" data-ride="carousel" data-pause="hover" style="top: 215px;">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <h4>Faculty Zonal Head</h4>
+  <h5>Ms. Abha Sharma</h5>
+  <h5>Mr. Mukesh</h5>
+  <h4>Student Zonal Head</h4>
+      <div>
+    <h5>Aman Thakur</h5>
+    <h5>9816314513</h5>
+  </div>
+     <div>
+    <h5>Uday Prakash</h5>
+    <h5>7018574427</h5>
+  </div>
+     <div>
+    <h5>Riya Rana</h5>
+    <h5>7696112802</h5>
+  </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
